@@ -8,7 +8,7 @@ The overall structure is as follows:
 
 | Name        | Size      | Type                   | Description                                                                   |
 | ----------- | --------- | ---------------------- | ----------------------------------------------------------------------------- |
-| Magic Bytes | 2 bytes   | hex                    | 0xC7D4, signals that the file is a gtrec                                      |
+| Magic Bytes | 2 bytes   | hex                    | 0x4754, signals that the file is a gtrec                                      |
 | Version     | 2 bytes   | ushort                 | Version number of the recording file                                          |
 | Platform    | 1 byte    | byte                   | Platform that the run is on, 0 for PCVR, 1 for Quest, reserved for future use |
 | Generator   | 2-n bytes | null terminated string | The name and version of what created the replay, e.g. "GKZv0.1.0"             |
